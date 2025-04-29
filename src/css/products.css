@@ -1,0 +1,12 @@
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+.product a,
+button {
+  display: none;
+}

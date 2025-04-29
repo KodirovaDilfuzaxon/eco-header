@@ -1,0 +1,73 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: calc(100vh - 10%);
+}
+.slider-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-image .discount {
+  position: absolute;
+  top: 30%;
+  left: 85%;
+}
+.slider-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  max-width: 556px;
+}
+.slider .slider-content strong {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00b207;
+}
+.slider .slider-content h1 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 120%;
+  color: #002603;
+}
+.slider .slider-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #618062;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+.slider .slider-content button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 16px 40px;
+  gap: 16px;
+  background: #00b207;
+  border-radius: 43px;
+  margin-top: 32px;
+}
+
+.slider .slider-content button .btn-now {
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-decoration: none;
+}
+.slider .slider-content button i {
+  color: #fff;
+}
