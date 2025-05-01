@@ -2,6 +2,8 @@
   margin-top: 50px;
   display: flex;
   justify-content: center;
+gap:40px;
+  margin-top: -320px;
 }
 .feature-items {
   display: flex;
@@ -10,6 +12,7 @@
   border: 1px solid #dae5da;
   box-shadow: 0px 16px 48px 0px #0e6b1514;
   border-radius: 8px;
+  background: #fff;
 }
 
 .features .feature-items .feature-item {

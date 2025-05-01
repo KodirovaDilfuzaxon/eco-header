@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  height: calc(100vh - 10%);
+  height:70vh;
+  padding:210px;
 }
 .slider-image {
   position: relative;
